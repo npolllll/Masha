@@ -8,6 +8,7 @@ import { parseImport, previewImport, SCHEMA_VERSION, type AppSnapshot, type Impo
 import { DEFAULT_SETTINGS, TASK_FIELD_LABELS } from '@/domain/types';
 import type { ISODate, Settings } from '@/domain/types';
 import { downloadFile, stamp } from '@/hooks/download';
+import { hasSupabaseKey, hasSupabaseUrl, maskedKey } from '@/lib/supabaseConfig';
 import { Button } from '@/components/ui/Button';
 import { Switch } from '@/components/ui/Checkbox';
 import { DateField, SelectField } from '@/components/ui/Fields';
@@ -248,6 +249,12 @@ export function SettingsPage() {
             <Info label="База создана" value={meta.seededAt ? formatDateTime(meta.seededAt, settings.timezone) : '—'} />
             <Info label="Последний импорт" value={meta.importedAt ? formatDateTime(meta.importedAt, settings.timezone) : '—'} />
           </dl>
+          <div className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-1 rounded-2xl border border-line px-4 py-3 text-[12.5px] text-ink-muted">
+            <span className="font-semibold text-ink">Supabase</span>
+            <span>ключ: {hasSupabaseKey ? <code className="text-ink-soft">{maskedKey()}</code> : 'не задан'}</span>
+            <span>· URL проекта: {hasSupabaseUrl ? 'задан' : 'не задан (VITE_SUPABASE_URL в .env)'}</span>
+            <span className="basis-full text-ink-faint">Данные приложения по-прежнему хранятся локально; Supabase пока не используется для синхронизации.</span>
+          </div>
           <Button variant="ghost" className="mt-3" onClick={() => openHistory()}>
             <History className="h-4 w-4" /> Открыть историю изменений
           </Button>

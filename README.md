@@ -6,6 +6,8 @@
 **Стек:** React 18 · TypeScript · Vite · Tailwind CSS · Radix UI (диалоги, меню, поповеры, подсказки) · Recharts ·
 date-fns · framer-motion · Dexie (IndexedDB) · zod · sonner · canvas-confetti · Vitest.
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fnpolllll%2Fmasha-psychology-ba-2027&project-name=masha-psychology-ba-2027&repository-name=masha-psychology-ba-2027)
+
 ## Быстрый старт
 
 ```bash
@@ -106,6 +108,27 @@ src/
   pages/       Home, Tasks, About, Stats, Settings, NotFound
   styles/      Tailwind + токены
 ```
+
+## Supabase
+
+Публичный (publishable) ключ прописан в `.env` как `VITE_SUPABASE_ANON_KEY` — такие ключи по замыслу Supabase
+встраиваются в клиентский код, а данные защищаются политиками Row Level Security. Секретные ключи (`sb_secret_…`)
+в репозиторий не добавлять. Для подключения заполните `VITE_SUPABASE_URL` (Project Settings → API → Project URL);
+клиент доступен через `getSupabase()` из `src/lib/supabase.ts` и возвращает `null`, пока URL не задан.
+Статус конфигурации виден в «Настройки → Данные». Сейчас приложение хранит данные локально и Supabase для
+синхронизации не использует.
+
+## Деплой на Vercel
+
+В корне лежит `vercel.json` (Vite, `npm run build`, папка `dist`, SPA-rewrite на `index.html` для прямых ссылок
+вроде `/tasks`). Варианты:
+
+1. Кнопка **Deploy with Vercel** выше — Vercel клонирует репозиторий и соберёт проект.
+2. Vercel Dashboard → **Add New → Project → Import** репозиторий `npolllll/masha-psychology-ba-2027` → Deploy.
+   Настройки определятся автоматически; переменные окружения уже в `.env`.
+3. CLI: `npx vercel --prod` из корня проекта (после `npx vercel login`).
+
+После подключения репозитория каждый push в `main` деплоится автоматически.
 
 ## Дизайн и доступность
 
