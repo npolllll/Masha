@@ -1,0 +1,720 @@
+{
+  "source": {
+    "workbook": "Excel-трекер «Маша: Psychology BA 2027» (вкладки: Этапы, Задачи, Жёсткие дедлайны, Ориентиры по Европе)",
+    "snapshotDate": "2026-10-10",
+    "sheets": [
+      "Этапы",
+      "Задачи",
+      "Жёсткие дедлайны",
+      "Ориентиры по Европе"
+    ],
+    "note": "Поле result — колонка «Результат» вкладки «Задачи». conditional — задачи с условием «если…» (Excel/DOCX), их можно пометить «Не требуется» только после подтверждения."
+  },
+  "stages": [
+    {
+      "id": 0,
+      "title": "Duolingo 115–120",
+      "completionCriterion": "Сертификат Duolingo 115–120 на руках",
+      "shortTitle": "Duolingo",
+      "color": "#2F6FD0"
+    },
+    {
+      "id": 1,
+      "title": "Агентство: подбор программ",
+      "completionCriterion": "Longlist получен и проверен по ТЗ",
+      "shortTitle": "Агентство",
+      "color": "#7A55C7"
+    },
+    {
+      "id": 2,
+      "title": "Anatolia: итоговый список",
+      "completionCriterion": "Список 6–8 программ утверждён, требования каждой понятны",
+      "shortTitle": "Anatolia",
+      "color": "#14919B"
+    },
+    {
+      "id": 3,
+      "title": "Документы",
+      "completionCriterion": "Апостиль, переводы, CV, мотивационное, 2 рекомендации готовы",
+      "shortTitle": "Документы",
+      "color": "#C98A04"
+    },
+    {
+      "id": 4,
+      "title": "Заявки",
+      "completionCriterion": "Все заявки поданы до общего дедлайна 15.01",
+      "shortTitle": "Заявки",
+      "color": "#D9483B"
+    },
+    {
+      "id": 5,
+      "title": "Офферы и выбор",
+      "completionCriterion": "Один оффер принят, депозит оплачен, остальным отказ",
+      "shortTitle": "Офферы",
+      "color": "#2A8F55"
+    },
+    {
+      "id": 6,
+      "title": "Студенческая виза",
+      "completionCriterion": "Виза в паспорте",
+      "shortTitle": "Виза",
+      "color": "#C2417A"
+    },
+    {
+      "id": 7,
+      "title": "Жильё",
+      "completionCriterion": "Договор на жильё подписан",
+      "shortTitle": "Жильё",
+      "color": "#8A6534"
+    },
+    {
+      "id": 8,
+      "title": "Переезд",
+      "completionCriterion": "Маша на месте, регистрация пройдена, учёба началась",
+      "shortTitle": "Переезд",
+      "color": "#4A5868"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "0.1",
+      "stageId": 0,
+      "title": "Пробный Duolingo (бесплатный practice test): стартовый балл и слабые подсекции",
+      "startDate": "2026-10-09",
+      "dueDate": "2026-10-12",
+      "assignee": "Маша",
+      "deadlineType": "Плановый",
+      "status": "Готово",
+      "result": "Стартовый балл записан",
+      "conditional": false
+    },
+    {
+      "id": "0.2",
+      "stageId": 0,
+      "title": "Подготовка по слабым подсекциям, 1 час в день",
+      "startDate": "2026-10-12",
+      "dueDate": "2026-10-31",
+      "assignee": "Маша",
+      "deadlineType": "Плановый",
+      "status": "В работе",
+      "result": "2 пробных теста ≥115",
+      "conditional": false
+    },
+    {
+      "id": "0.3",
+      "stageId": 0,
+      "title": "Duolingo, попытка 1",
+      "startDate": "2026-11-01",
+      "dueDate": "2026-11-02",
+      "assignee": "Маша",
+      "deadlineType": "Жёсткий",
+      "status": "Не начато",
+      "result": "Результат через ~2 дня",
+      "conditional": false
+    },
+    {
+      "id": "0.4",
+      "stageId": 0,
+      "title": "Duolingo, попытка 2, если первая ниже 115 (максимум 2 попытки за 30 дней)",
+      "startDate": "2026-11-16",
+      "dueDate": "2026-11-23",
+      "assignee": "Маша",
+      "deadlineType": "Плановый",
+      "status": "Не начато",
+      "result": "Результат 115–120",
+      "conditional": true
+    },
+    {
+      "id": "0.5",
+      "stageId": 0,
+      "title": "Сертификат Duolingo 115–120 на руках, PDF в общей папке",
+      "startDate": "2026-11-30",
+      "dueDate": "2026-11-30",
+      "assignee": "Маша",
+      "deadlineType": "Жёсткий",
+      "status": "Не начато",
+      "result": "PDF сертификата",
+      "conditional": false
+    },
+    {
+      "id": "1.1",
+      "stageId": 1,
+      "title": "Обновить ТЗ: Duolingo 115–120, аттестат 11 лет, базовая математика, старт сентябрь 2027",
+      "startDate": "2026-10-08",
+      "dueDate": "2026-10-12",
+      "assignee": "Никита",
+      "deadlineType": "Жёсткий",
+      "status": "Готово",
+      "result": "ТЗ v2 готово",
+      "conditional": false
+    },
+    {
+      "id": "1.2",
+      "stageId": 1,
+      "title": "Отправить ТЗ агентству и согласовать срок 10 рабочих дней",
+      "startDate": "2026-10-13",
+      "dueDate": "2026-10-13",
+      "assignee": "Никита",
+      "deadlineType": "Жёсткий",
+      "status": "Не начато",
+      "result": "Срок подтверждён письменно",
+      "conditional": false
+    },
+    {
+      "id": "1.3",
+      "stageId": 1,
+      "title": "Агентство подбирает программы: 10 рабочих дней",
+      "startDate": "2026-10-13",
+      "dueDate": "2026-10-27",
+      "assignee": "Агентство",
+      "deadlineType": "Жёсткий",
+      "status": "Не начато",
+      "result": "Longlist получен",
+      "conditional": false
+    },
+    {
+      "id": "1.4",
+      "stageId": 1,
+      "title": "Промежуточный созвон с агентством: первые программы, вопросы",
+      "startDate": "2026-10-20",
+      "dueDate": "2026-10-20",
+      "assignee": "Никита",
+      "deadlineType": "Плановый",
+      "status": "Не начато",
+      "result": "Вопросы закрыты",
+      "conditional": false
+    },
+    {
+      "id": "1.5",
+      "stageId": 1,
+      "title": "Проверить longlist по ТЗ: Duolingo, аттестат, математика, дедлайн",
+      "startDate": "2026-10-28",
+      "dueDate": "2026-10-30",
+      "assignee": "Никита",
+      "deadlineType": "Плановый",
+      "status": "Не начато",
+      "result": "Longlist в трекере",
+      "conditional": false
+    },
+    {
+      "id": "2.1",
+      "stageId": 2,
+      "title": "Забронировать встречу с head of university advising, Anatolia",
+      "startDate": "2026-10-13",
+      "dueDate": "2026-10-16",
+      "assignee": "Никита",
+      "deadlineType": "Плановый",
+      "status": "Не начато",
+      "result": "Дата встречи",
+      "conditional": false
+    },
+    {
+      "id": "2.2",
+      "stageId": 2,
+      "title": "Передать longlist в Anatolia",
+      "startDate": "2026-11-02",
+      "dueDate": "2026-11-02",
+      "assignee": "Никита",
+      "deadlineType": "Жёсткий",
+      "status": "Не начато",
+      "result": "Отправлено",
+      "conditional": false
+    },
+    {
+      "id": "2.3",
+      "stageId": 2,
+      "title": "Экспертиза Anatolia: сильные и слабые программы, шансы, риски",
+      "startDate": "2026-11-02",
+      "dueDate": "2026-11-13",
+      "assignee": "Anatolia",
+      "deadlineType": "Плановый",
+      "status": "Не начато",
+      "result": "Заключение получено",
+      "conditional": false
+    },
+    {
+      "id": "2.4",
+      "stageId": 2,
+      "title": "Свести требования каждой программы: тест, допуск аттестата, математика, отбор",
+      "startDate": "2026-11-13",
+      "dueDate": "2026-11-18",
+      "assignee": "Никита",
+      "deadlineType": "Плановый",
+      "status": "Не начато",
+      "result": "Требования в трекере",
+      "conditional": false
+    },
+    {
+      "id": "2.5",
+      "stageId": 2,
+      "title": "Утвердить итоговый список 6–8 программ",
+      "startDate": "2026-11-20",
+      "dueDate": "2026-11-20",
+      "assignee": "Маша, Никита",
+      "deadlineType": "Жёсткий",
+      "status": "Не начато",
+      "result": "Список утверждён",
+      "conditional": false
+    },
+    {
+      "id": "3.1",
+      "stageId": 3,
+      "title": "Подать аттестат на апостиль (срок изготовления до 45 дней)",
+      "startDate": "2026-10-13",
+      "dueDate": "2026-10-30",
+      "assignee": "Маша",
+      "deadlineType": "Жёсткий",
+      "status": "Готово",
+      "result": "Квитанция",
+      "conditional": false
+    },
+    {
+      "id": "3.2",
+      "stageId": 3,
+      "title": "Запросить transcript за 10 класс",
+      "startDate": "2026-10-13",
+      "dueDate": "2026-11-30",
+      "assignee": "Маша",
+      "deadlineType": "Плановый",
+      "status": "Готово",
+      "result": "Transcript получен",
+      "conditional": false
+    },
+    {
+      "id": "3.3",
+      "stageId": 3,
+      "title": "Апостиль готов",
+      "startDate": "2026-10-30",
+      "dueDate": "2026-12-15",
+      "assignee": "Маша",
+      "deadlineType": "Ориентир",
+      "status": "Готово",
+      "result": "Аттестат с апостилем",
+      "conditional": false
+    },
+    {
+      "id": "3.4",
+      "stageId": 3,
+      "title": "Запросить 2 рекомендации у учителей",
+      "startDate": "2026-11-23",
+      "dueDate": "2026-11-27",
+      "assignee": "Маша",
+      "deadlineType": "Жёсткий",
+      "status": "Не начато",
+      "result": "Учителя согласились",
+      "conditional": true
+    },
+    {
+      "id": "3.5",
+      "stageId": 3,
+      "title": "CV на английском",
+      "startDate": "2026-11-23",
+      "dueDate": "2026-12-07",
+      "assignee": "Маша",
+      "deadlineType": "Плановый",
+      "status": "Готово",
+      "result": "CV в PDF",
+      "conditional": false
+    },
+    {
+      "id": "3.6",
+      "stageId": 3,
+      "title": "Мотивационное письмо: черновик",
+      "startDate": "2026-11-23",
+      "dueDate": "2026-12-07",
+      "assignee": "Маша",
+      "deadlineType": "Плановый",
+      "status": "Готово",
+      "result": "Черновик",
+      "conditional": false
+    },
+    {
+      "id": "3.7",
+      "stageId": 3,
+      "title": "Нотариальные переводы аттестата и приложений",
+      "startDate": "2026-12-01",
+      "dueDate": "2026-12-20",
+      "assignee": "Маша",
+      "deadlineType": "Плановый",
+      "status": "Готово",
+      "result": "Переводы в PDF",
+      "conditional": false
+    },
+    {
+      "id": "3.8",
+      "stageId": 3,
+      "title": "Мотивационное письмо: правка с Anatolia (если нужно)",
+      "startDate": "2026-12-07",
+      "dueDate": "2026-12-14",
+      "assignee": "Маша, Anatolia",
+      "deadlineType": "Плановый",
+      "status": "Готово",
+      "result": "Правки внесены",
+      "conditional": true
+    },
+    {
+      "id": "3.9",
+      "stageId": 3,
+      "title": "Мотивационное письмо: финал под каждую программу",
+      "startDate": "2026-12-14",
+      "dueDate": "2026-12-21",
+      "assignee": "Маша",
+      "deadlineType": "Жёсткий",
+      "status": "Не начато",
+      "result": "Финальные версии",
+      "conditional": false
+    },
+    {
+      "id": "3.10",
+      "stageId": 3,
+      "title": "Рекомендации получены",
+      "startDate": "2026-11-27",
+      "dueDate": "2026-12-18",
+      "assignee": "Учителя",
+      "deadlineType": "Ориентир",
+      "status": "Не начато",
+      "result": "2 письма в PDF",
+      "conditional": false
+    },
+    {
+      "id": "4.1",
+      "stageId": 4,
+      "title": "Создать аккаунты на порталах подачи всех программ",
+      "startDate": "2026-11-23",
+      "dueDate": "2026-12-05",
+      "assignee": "Маша",
+      "deadlineType": "Плановый",
+      "status": "Не начато",
+      "result": "Логины в трекере",
+      "conditional": false
+    },
+    {
+      "id": "4.2",
+      "stageId": 4,
+      "title": "Заполнить заявки и загрузить документы",
+      "startDate": "2026-12-01",
+      "dueDate": "2027-01-05",
+      "assignee": "Маша",
+      "deadlineType": "Плановый",
+      "status": "Не начато",
+      "result": "Заявки заполнены",
+      "conditional": false
+    },
+    {
+      "id": "4.3",
+      "stageId": 4,
+      "title": "Отправить и оплатить все заявки с запасом до общего дедлайна",
+      "startDate": "2027-01-08",
+      "dueDate": "2027-01-08",
+      "assignee": "Маша",
+      "deadlineType": "Жёсткий",
+      "status": "Не начато",
+      "result": "Подтверждения подачи",
+      "conditional": false
+    },
+    {
+      "id": "4.4",
+      "stageId": 4,
+      "title": "Общий дедлайн подачи в вузы Западной Европы",
+      "startDate": "2027-01-15",
+      "dueDate": "2027-01-15",
+      "assignee": "—",
+      "deadlineType": "Жёсткий",
+      "status": "Не начато",
+      "result": "Всё подано",
+      "conditional": false
+    },
+    {
+      "id": "4.5",
+      "stageId": 4,
+      "title": "Интервью и отборочные тесты, если программа их проводит",
+      "startDate": "2027-02-01",
+      "dueDate": "2027-03-15",
+      "assignee": "Маша",
+      "deadlineType": "Ориентир",
+      "status": "Не начато",
+      "result": "Пройдены",
+      "conditional": true
+    },
+    {
+      "id": "4.6",
+      "stageId": 4,
+      "title": "Запасная волна: программы с весенними дедлайнами для non-EU",
+      "startDate": "2027-01-16",
+      "dueDate": "2027-03-31",
+      "assignee": "Маша",
+      "deadlineType": "Плановый",
+      "status": "Не начато",
+      "result": "Поданы, если нужно",
+      "conditional": true
+    },
+    {
+      "id": "5.1",
+      "stageId": 5,
+      "title": "Решения вузов (обычно март–апрель)",
+      "startDate": "2027-03-01",
+      "dueDate": "2027-04-15",
+      "assignee": "Вузы",
+      "deadlineType": "Ориентир",
+      "status": "Не начато",
+      "result": "Офферы получены",
+      "conditional": false
+    },
+    {
+      "id": "5.2",
+      "stageId": 5,
+      "title": "Сравнить офферы с Anatolia",
+      "startDate": "2027-04-15",
+      "dueDate": "2027-04-25",
+      "assignee": "Маша, Никита",
+      "deadlineType": "Плановый",
+      "status": "Не начато",
+      "result": "Выбор сделан",
+      "conditional": false
+    },
+    {
+      "id": "5.3",
+      "stageId": 5,
+      "title": "Принять оффер и оплатить депозит",
+      "startDate": "2027-04-25",
+      "dueDate": "2027-04-30",
+      "assignee": "Маша",
+      "deadlineType": "Жёсткий",
+      "status": "Не начато",
+      "result": "Подтверждение места",
+      "conditional": false
+    },
+    {
+      "id": "5.4",
+      "stageId": 5,
+      "title": "Отказаться от остальных офферов",
+      "startDate": "2027-05-01",
+      "dueDate": "2027-05-05",
+      "assignee": "Маша",
+      "deadlineType": "Плановый",
+      "status": "Не начато",
+      "result": "Отказы отправлены",
+      "conditional": false
+    },
+    {
+      "id": "6.1",
+      "stageId": 6,
+      "title": "Подготовить подтверждение средств на год",
+      "startDate": "2027-03-01",
+      "dueDate": "2027-05-15",
+      "assignee": "Никита",
+      "deadlineType": "Плановый",
+      "status": "Не начато",
+      "result": "Выписки готовы",
+      "conditional": false
+    },
+    {
+      "id": "6.2",
+      "stageId": 6,
+      "title": "Собрать пакет на студенческую визу по списку посольства",
+      "startDate": "2027-05-01",
+      "dueDate": "2027-05-31",
+      "assignee": "Маша",
+      "deadlineType": "Плановый",
+      "status": "Не начато",
+      "result": "Пакет собран",
+      "conditional": false
+    },
+    {
+      "id": "6.3",
+      "stageId": 6,
+      "title": "Медицинская страховка на период учёбы",
+      "startDate": "2027-05-15",
+      "dueDate": "2027-06-10",
+      "assignee": "Маша",
+      "deadlineType": "Плановый",
+      "status": "Не начато",
+      "result": "Полис",
+      "conditional": false
+    },
+    {
+      "id": "6.4",
+      "stageId": 6,
+      "title": "Подать на студенческую визу в посольстве по месту проживания",
+      "startDate": "2027-06-01",
+      "dueDate": "2027-06-15",
+      "assignee": "Маша",
+      "deadlineType": "Жёсткий",
+      "status": "Не начато",
+      "result": "Квитанция подачи",
+      "conditional": false
+    },
+    {
+      "id": "6.5",
+      "stageId": 6,
+      "title": "Рассмотрение визы: обычно 4–8 недель, максимум до 90 дней",
+      "startDate": "2027-06-15",
+      "dueDate": "2027-07-31",
+      "assignee": "Посольство",
+      "deadlineType": "Ориентир",
+      "status": "Не начато",
+      "result": "Решение",
+      "conditional": false
+    },
+    {
+      "id": "6.6",
+      "stageId": 6,
+      "title": "Виза в паспорте",
+      "startDate": "2027-07-31",
+      "dueDate": "2027-07-31",
+      "assignee": "Маша",
+      "deadlineType": "Ориентир",
+      "status": "Не начато",
+      "result": "Виза",
+      "conditional": false
+    },
+    {
+      "id": "7.1",
+      "stageId": 7,
+      "title": "Заявка на жильё через вуз сразу после принятия оффера",
+      "startDate": "2027-04-30",
+      "dueDate": "2027-05-07",
+      "assignee": "Маша",
+      "deadlineType": "Жёсткий",
+      "status": "Не начато",
+      "result": "Заявка подана",
+      "conditional": false
+    },
+    {
+      "id": "7.2",
+      "stageId": 7,
+      "title": "Поиск жилья: общежитие или частная аренда",
+      "startDate": "2027-05-01",
+      "dueDate": "2027-06-30",
+      "assignee": "Маша, Никита",
+      "deadlineType": "Плановый",
+      "status": "Не начато",
+      "result": "Варианты отобраны",
+      "conditional": false
+    },
+    {
+      "id": "7.3",
+      "stageId": 7,
+      "title": "Подтверждение жилья для визы, если его требует посольство",
+      "startDate": "2027-05-15",
+      "dueDate": "2027-06-01",
+      "assignee": "Маша",
+      "deadlineType": "Жёсткий",
+      "status": "Не начато",
+      "result": "Документ о жилье",
+      "conditional": true
+    },
+    {
+      "id": "7.4",
+      "stageId": 7,
+      "title": "Договор на жильё подписан",
+      "startDate": "2027-06-30",
+      "dueDate": "2027-06-30",
+      "assignee": "Маша",
+      "deadlineType": "Жёсткий",
+      "status": "Не начато",
+      "result": "Договор",
+      "conditional": false
+    },
+    {
+      "id": "8.1",
+      "stageId": 8,
+      "title": "Купить билеты (после визы)",
+      "startDate": "2027-08-01",
+      "dueDate": "2027-08-10",
+      "assignee": "Никита",
+      "deadlineType": "Плановый",
+      "status": "Не начато",
+      "result": "Билеты",
+      "conditional": false
+    },
+    {
+      "id": "8.2",
+      "stageId": 8,
+      "title": "Переезд",
+      "startDate": "2027-08-15",
+      "dueDate": "2027-08-31",
+      "assignee": "Маша",
+      "deadlineType": "Плановый",
+      "status": "Не начато",
+      "result": "Маша на месте",
+      "conditional": false
+    },
+    {
+      "id": "8.3",
+      "stageId": 8,
+      "title": "Регистрация по месту жительства и в вузе",
+      "startDate": "2027-08-20",
+      "dueDate": "2027-09-15",
+      "assignee": "Маша",
+      "deadlineType": "Жёсткий",
+      "status": "Не начато",
+      "result": "Регистрация пройдена",
+      "conditional": false
+    },
+    {
+      "id": "8.4",
+      "stageId": 8,
+      "title": "Начало учёбы (конец августа – сентябрь)",
+      "startDate": "2027-09-01",
+      "dueDate": "2027-09-01",
+      "assignee": "—",
+      "deadlineType": "Ориентир",
+      "status": "Не начато",
+      "result": "Учёба началась",
+      "conditional": false
+    }
+  ],
+  "europeGuidelines": [
+    {
+      "topic": "Открытие подачи",
+      "period": "Октябрь – ноябрь 2026",
+      "description": "Порталы открываются осенью. Подавать можно сразу, как готовы документы."
+    },
+    {
+      "topic": "Общий дедлайн подачи",
+      "period": "15.01.2027",
+      "description": "Главный ориентир для сильных программ Западной Европы на сентябрь 2027. Свои заявки отправляем до 08.01."
+    },
+    {
+      "topic": "Поздние дедлайны для non-EU",
+      "period": "Февраль – 01.04.2027",
+      "description": "Часть программ принимает заявки весной. Это запасная волна."
+    },
+    {
+      "topic": "Частные вузы с раундами",
+      "period": "Ноябрь – май",
+      "description": "Подача раундами, места заканчиваются. Чем раньше раунд, тем больше шансов."
+    },
+    {
+      "topic": "Интервью и тесты",
+      "period": "Февраль – март 2027",
+      "description": "Если программа проводит отбор."
+    },
+    {
+      "topic": "Решения вузов",
+      "period": "Март – апрель 2027",
+      "description": "Большинство ответов приходит к середине апреля."
+    },
+    {
+      "topic": "Подтверждение места",
+      "period": "1–2 недели после оффера",
+      "description": "Принять оффер и оплатить депозит. В плане до 30.04."
+    },
+    {
+      "topic": "Студенческая виза",
+      "period": "Подача за 2–3 месяца до старта",
+      "description": "Рассмотрение обычно 4–8 недель, максимум до 90 дней. В плане подача до 15.06."
+    },
+    {
+      "topic": "Жильё",
+      "period": "Май – июнь 2027",
+      "description": "Общежитие вуза бронируется сразу после оффера. Частная аренда: поиск 1–3 месяца. Для визы часто нужно подтверждение жилья."
+    },
+    {
+      "topic": "Начало учёбы",
+      "period": "Конец августа – сентябрь 2027",
+      "description": "Переезд во второй половине августа."
+    }
+  ]
+}
