@@ -6,7 +6,7 @@
 **Стек:** React 18 · TypeScript · Vite · Tailwind CSS · Radix UI (диалоги, меню, поповеры, подсказки) · Recharts ·
 date-fns · framer-motion · Dexie (IndexedDB) · zod · sonner · canvas-confetti · Vitest.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fnpolllll%2Fmasha-psychology-ba-2027&project-name=masha-psychology-ba-2027&repository-name=masha-psychology-ba-2027)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fnpolllll%2FMasha&project-name=masha-psychology-ba-2027&repository-name=masha-psychology-ba-2027)
 
 ## Быстрый старт
 
@@ -124,11 +124,11 @@ src/
 вроде `/tasks`). Варианты:
 
 1. Кнопка **Deploy with Vercel** выше — Vercel клонирует репозиторий и соберёт проект.
-2. Vercel Dashboard → **Add New → Project → Import** репозиторий `npolllll/masha-psychology-ba-2027` → Deploy.
+2. Vercel Dashboard → **Add New → Project → Import** репозиторий с этим кодом (`npolllll/Masha`) → Deploy.
    Настройки определятся автоматически; переменные окружения уже в `.env`.
 3. CLI: `npx vercel --prod` из корня проекта (после `npx vercel login`).
 
-После подключения репозитория каждый push в `main` деплоится автоматически.
+После подключения репозитория каждый push в production-ветку (ветку по умолчанию) деплоится автоматически.
 
 ## Дизайн и доступность
 
